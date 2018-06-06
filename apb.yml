@@ -1,0 +1,13 @@
+version: 1.0
+name: foo
+description: your description
+bindable: False
+async: optional
+metadata:
+  displayName: foo
+plans:
+  - name: default
+    description: This default plan deploys foo
+    free: True
+    metadata: {}
+    parameters: []
